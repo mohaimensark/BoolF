@@ -1,0 +1,29 @@
+Sample Output
+Current genes for= 1 --->  6 
+Actual genes for = 1 --->  3 4 5 6 8 
+Current genes for= 2 --->  7 
+Actual genes for = 2 --->  7 
+Current genes for= 3 --->  1 8 9 
+Actual genes for = 3 --->  4 8 9 
+Current genes for= 4 --->  5 6 8 
+Actual genes for = 4 --->  5 6 8 
+Current genes for= 5 --->  4 
+Actual genes for = 5 --->  4 
+Current genes for= 6 --->  3 5 8 
+Actual genes for = 6 --->  3 5 8 
+Current genes for= 7 --->  5 
+Actual genes for = 7 --->  5 
+Current genes for= 8 --->  9 
+Actual genes for = 8 --->  9 
+Current genes for= 9 --->  2 
+Actual genes for = 9 --->  2 
+Current genes for= 10 --->  7 
+Actual genes for = 10 --->  7 
+TP 15  FP 1  TN 69  FN 5 parameters
+
+Fscore for this file = 0.833333
+Recall/TPR for this file is 0.75
+FPR for this file is 0.0142857
+MCC for this file is 0.800014
+Precision for this file is0.9375
+
