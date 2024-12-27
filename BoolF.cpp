@@ -389,10 +389,10 @@ int main()
        
      
         fclose(stdin);
-        string goldStandardOutput = "sampleNetwork/outp.txt";
+        string goldStandardNetwork = "sampleNetwork/outp.txt";
     
 
-        ifstream inputFile(goldStandardOutput);
+        ifstream inputFile(goldStandardNetwork);
         int first, second, third;
         cout<<"Sample Output"<<endl;
         while (inputFile >> first >> second >> third)
