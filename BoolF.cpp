@@ -364,12 +364,12 @@ int main()
 
   
      
-         string inputFilePath = "sampleNetwork/inp.txt";
-         string outputFilePath = "sampleOutput.txt";
+         string Network_input = "sampleNetwork/inp.txt";
+         string output = "sampleOutput.txt";
 
 
-        freopen(inputFilePath.c_str(), "r", stdin);
-        freopen(outputFilePath.c_str(), "a", stdout);
+        freopen(Network_input.c_str(), "r", stdin);
+        freopen(output.c_str(), "a", stdout);
 
 
         cin >> number_of_genes >> number_of_rows;
@@ -389,10 +389,10 @@ int main()
        
      
         fclose(stdin);
-       inputFilePath = "sampleNetwork/outp.txt";
+        string goldStandardOutput = "sampleNetwork/outp.txt";
     
 
-        ifstream inputFile(inputFilePath);
+        ifstream inputFile(goldStandardOutput);
         int first, second, third;
         cout<<"Sample Output"<<endl;
         while (inputFile >> first >> second >> third)
