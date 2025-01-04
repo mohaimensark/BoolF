@@ -61,6 +61,7 @@ The first column denotes the regulatory genes and the third column denotes the t
 # Sample output for the given input
 
 Here, the left side of the arrow presents the target gene and the right side of the arrow presents the respective regulatory gene for the target gene.
+For example, "Current genes for 1 ---> 6" presents BoolF inferred the regulatory gene 6 for the target gene 1. Additionally, "Actual genes for 1 ---> 3 4 5 6 8" means, in the gold standard network for the target gene 1 there are regulatory genes 3,4,5,6, and 8. <br/>
 
 Current genes for 1 --->  6 <br/>
 Actual genes for  1 --->  3 4 5 6 8 <br/>
