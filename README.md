@@ -58,3 +58,36 @@ The first column denotes the regulatory genes and the third column denotes the t
 8	-1	2 <br/>
 7	1	5 <br/>
 
+# Sample output for the given input
+
+Here, the left side of the arrow presents the target gene and the right side of the arrow presents the respective regulatory gene for the target gene.
+
+Current genes for 1 --->  6 <br/>
+Actual genes for  1 --->  3 4 5 6 8 <br/>
+Current genes for=2 --->  7 <br/>
+Actual genes for  2 --->  7 <br/>
+Current genes for 3 --->  1 8 9 <br/>
+Actual genes for  3 --->  4 8 9 <br/>
+Current genes for 4 --->  5 6 8 <br/>
+Actual genes for  4 --->  5 6 8 <br/>
+Current genes for 5 --->  4 <br/>
+Actual genes for  5 --->  4 <br/>
+Current genes for 6 --->  3 5 8 <br/>
+Actual genes for  6 --->  3 5 8 <br/>
+Current genes for 7 --->  5 <br/>
+Actual genes for  7 --->  5 <br/>
+Current genes for 8 --->  9 <br/>
+Actual genes for  8 --->  9 <br/>
+Current genes for 9 --->  2 <br/>
+Actual genes for  9 --->  2 <br/>
+Current genes for 10 --->  7 <br/>
+Actual genes for  10 --->  7 <br/>
+TP 15  FP 1  TN 69  FN 5 parameters <br/>
+
+F-score for this file = 0.833333 <br/>
+Recall/TPR for this file is 0.75 <br/>
+FPR for this file is 0.0142857 <br/>
+MCC for this file is 0.800014 <br/>
+Precision for this file is0.9375 <br/>
+
+
